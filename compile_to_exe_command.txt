@@ -3,15 +3,6 @@ From fresh Strawberry Portable Perl:
 cpanm PAR
 cpanm PAR::Packer
 
-...
-
-
 --
-pp -M PAR -M FindBin -M Win32::Sound -M Audio::Wav -x -o "A:\AtmanActive\Programs\Public\Util\Audio\PerlPlayWavDevice\PerlPlayWavDevice.exe" "A:\AtmanActive\Programs\Public\Util\Audio\PerlPlayWavDevice\PerlPlayWavDevice.pl"
+pp -M PAR -M FindBin -M Win32::Sound -M Audio::Wav -x -o "PerlPlayWavDevice.exe" "PerlPlayWavDevice.pl"
 --
-
-
-
-SYNTAX:
-pp -M PAR -M INCLUDE_MODULE_NAME_1 -M INCLUDE_MODULE_NAME_2 -M INCLUDE_MODULE_NAME_3 -x -o outputname.exe inputname.pl
-
