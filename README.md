@@ -1,5 +1,5 @@
 # PerlPlayWavDevice
-Windows utility to play a given wav file to a given audio device.
+Windows utility to play a given 8-bit wav file to a given audio device.
 It can be useful for batch files or other automation tasks.
 
 Usage (command line arguments):
@@ -14,3 +14,4 @@ Optional output device partial name or number as second argument, will try to ma
 
 -i, --info as optional third argument to show wav file properties
 
+Due to unknown deficiencies of the underlying libraries, it works correctly with 8-bit files only. Nevertheless, for short signal noises or audio feedback it is still quite usable. Just need to remember to convert your wav files to 8 bits, mono or stereo.
