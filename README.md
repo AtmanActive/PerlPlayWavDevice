@@ -8,7 +8,7 @@ Usage (command line arguments):
 
 -l, --list to list available devices
 
-Sound file name or path as first argument, using portable path when only filename provided
+Sound file name or path as first argument, will use portable path if only filename provided
 
 Optional output device partial name or number as second argument, will try to match with regex
 
